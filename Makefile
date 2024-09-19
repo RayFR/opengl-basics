@@ -1,5 +1,5 @@
-COMP = gcc main.c
-OUT = ./a.out
+COMP = gcc main.c -o main -lGL -lGLU -lglut
+OUT = ./main
 RUN = $(OUT)
 
 all: compile run
