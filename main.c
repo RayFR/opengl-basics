@@ -15,7 +15,7 @@ void display() // procedure for drawing the graphics
         glColor3f(1.0, 0.0, 0.0); // red colour -- sets the colour of each vertex individually (DUE TO DIFFERING COLOURS THERE WILL BE A GRADIENT EFFECT)
         glVertex2f(-0.5, -0.5); // bottom left vertex of tri -- defines the position of each vertex 
         glColor3f(0.0, 1.0, 0.0); // green colour
-        glVertex2f(0.5, -0.5); // bottom right vertex of tri
+        glVertex2f(0.5, -0.5); // bottom right vertex of triangle
         glColor3f(0.0, 0.0, 1.0); // blue colour
         glVertex2f(0.0, 0.5); // top vertex of tri
     glEnd();
